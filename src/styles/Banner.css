@@ -1,0 +1,120 @@
+.banner {
+    width: 100%;
+    background-color: #f196e4;
+    display: flex;
+    align-items: center;
+}
+
+.banner__text {
+    position: relative;
+    height: 100%;
+    left: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    width: 50%;
+}
+
+.banner__text__hello {
+    position: relative;
+}
+
+.banner__text__hello-hello {
+    font-size: 17svw;
+    font-weight: 600;
+}
+
+.banner__text__hello-super{
+    position: absolute;
+    left: 13%;
+    top: 6%;
+    font-size:5svw ;
+}
+.banner__icon {
+    width: 30%;
+    margin-top: 30px;
+    margin-left: 23svw;
+    margin-right: 130px;
+}
+
+.banner__separation-container {
+    background-color: #f7ca44;
+}
+
+.banner__separation {
+    width: 100%;
+}
+
+.banner__text__description-agency {
+    color: #333333;
+    font-size: 3svw;
+    font-weight: 600;
+    margin-left: 3%;
+}
+
+.banner__text__description-promotion {
+    font-size: 2svw;
+    color: black;
+    margin: 4% 0 0 3%;
+}
+
+.banner__button {
+    width: 14svw;
+    height: 4svw;
+    margin: 5% 0 0 3%;
+    background-color: #ff8002;
+    font-size: 1.4svw;
+    font-weight: 600;
+    border: 2px solid black;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0px 7px 0px 0px #b470aa;
+}
+
+@media (max-width: 845px) {
+    .banner {
+    height: auto;
+    flex-direction: column;
+}
+
+.banner__text__hello {
+    text-align: center;
+}
+
+.banner__text {
+    position: static;
+    left: 0;
+    margin: auto;
+}
+
+.banner__text__hello-hello {
+    font-size: 27svw;
+}
+
+.banner__text__hello-super{
+    font-size:8svw ;
+    left: 21%;
+}
+
+.banner__icon {
+    margin-left: 0;
+    width: 50%;
+    margin: 30px auto 0 auto;
+}
+
+.banner__text__description-agency {
+    font-size: 5svw;
+
+}
+
+.banner__text__description-promotion {
+    font-size: 4svw;
+}
+
+.banner__button {
+    width: 19svw;
+    height: 9svw;
+    font-size: 2.8svw;
+}
+
+}

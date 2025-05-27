@@ -1,0 +1,38 @@
+.work__card {
+    width: 30%;
+    height: 550px;
+    background-color: white;
+    text-align: center;
+    border-radius: 20px 20px 20px 20px;
+    border: 3px solid black;
+     box-shadow: 0px 14px 0px 0px black;
+}
+
+.work__card-img {
+    width: 80%;
+   margin-top:  20px;
+    border-radius: 20px 20px 0 0;
+}
+
+.work__card-title {
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.work__card-text {
+    padding: 0 30px 0 30px;
+    text-align: left;
+    margin-top: 30px;
+    color: #666666;
+}
+
+@media (max-width: 845px) {
+    .work__card {
+        width: 80%;
+        height: auto;
+    }
+    .work__card-text {
+        margin-bottom: 40px;
+    }
+}

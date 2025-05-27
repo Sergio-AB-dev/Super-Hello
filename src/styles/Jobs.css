@@ -1,0 +1,29 @@
+.jobs {
+    background-color: #f196e4;
+}
+
+.jobs_card_second {
+    flex-direction: row-reverse;
+}
+
+.jobs_title {
+    text-align: center;
+    font-size: 3svw;
+    font-weight: 600;
+    padding: 20px 0 40px 0 ;
+}
+
+@media (max-width: 845px) {
+    .jobs_title {
+        font-size: 6svw;
+    }
+}
+
+.jobs_sepation {
+    width: 100%;
+    background-color:#f7ca44 ;
+}
+
+.jobs_sepation img {
+    width: 100%;
+}
